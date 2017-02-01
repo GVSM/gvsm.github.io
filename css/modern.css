@@ -16,6 +16,11 @@ html,
   /*background:transparent;*/
 }
 
+.headerImage{
+  background-color: #fefef0
+
+}
+
 .bb{
     background-color: #ffd500;
 }
@@ -128,5 +133,8 @@ footer {
 
     header.carousel .carousel {
         height: 70%;
+    }
+    .headerImage{
+        display: none;
     }
 }
