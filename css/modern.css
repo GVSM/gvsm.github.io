@@ -16,8 +16,7 @@ html,
   /*background:transparent;*/
 }
 
-.headerImage{
-  background-color: #fefef0
+.headerImage{ 
 
 }
 
@@ -51,6 +50,8 @@ body {
 header.carousel {
     height: 50%;
 }
+
+
 
 header.carousel .item,
 header.carousel .item.active,
