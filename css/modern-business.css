@@ -7,26 +7,8 @@
 /* Global Styles */
 
 html,
-
-.jumbo {
-  /*background-image: url("http://test.gvsmax.com/index_files/header_bg.JPG");*/
-  height: 250px;
-  /*background-color:#000;*/
-  /*text-shadow: #444 0 1px 1px;*/
-  /*background:transparent;*/
-}
-
-.bb{
-    background-color: #ffd500;
-}
-
-.shadowText{
-    text-shadow: #444 0 1px 1px;
-}
-
 body {
     height: 100%;
-      background-color: rgb(235, 239, 239);
 }
 
 body {
@@ -68,11 +50,6 @@ header.carousel .fill {
 
 /* Pricing Page Styles */
 
-.headerText{
-  display: block;
-  height: 100px;
-}
-
 .price {
     display: block;
     font-size: 50px;
@@ -103,27 +80,11 @@ footer {
     .img-related {
         margin-bottom: 30px;
     }
-
-    .headerText{
-      display: block;
-      height: 140px;
-    }
-
 }
 
 @media(max-width:767px) {
     .img-portfolio {
         margin-bottom: 15px;
-    }
-
-    .jumbo{
-      text-align: center;
-      height: 140px
-    }
-
-    .headerText{
-      display: block;
-      height: auto;
     }
 
     header.carousel .carousel {
