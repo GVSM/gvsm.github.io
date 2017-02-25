@@ -8,6 +8,62 @@
 
 html,
 
+.icon-bar-top {
+    width: 100%;
+    text-align: center;
+
+    overflow: auto;
+
+}
+
+.large-only{
+
+}
+
+.small-only{
+    display: none;
+}
+.navbar a{
+      font-size: 26px;
+}
+
+.tool{
+    width: 50%;
+}
+.icon-bar-top a {
+    width: 25%;
+    padding: 12px 0;
+    float: left;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+
+.icon-bar {
+    width: 100%;
+    text-align: center;
+
+    overflow: auto;
+}
+
+.icon-bar a {
+    width: 50%;
+    padding: 12px 0;
+    float: left;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
 .jumbo {
   /*background-image: url("http://test.gvsmax.com/index_files/header_bg.JPG");*/
   height: 250px;
@@ -16,8 +72,10 @@ html,
   /*background:transparent;*/
 }
 
-.headerImage{
 
+
+.bottomBar{ 
+    display: none;
 }
 
 .bb{
@@ -30,7 +88,7 @@ html,
 
 body {
     height: 100%;
-      background-color: rgb(235, 239, 239);
+    background-color: rgb(235, 239, 239);
 }
 
 body {
@@ -124,7 +182,7 @@ footer {
 
     .jumbo{
       text-align: center;
-      height: 280px
+      height: 170px
     }
 
     .headerText{
@@ -136,6 +194,15 @@ footer {
         height: 70%;
     }
     .headerImage{
+        display: none;
+    }
+    .bottomBar{
+        display:block!important;
+    }
+    small-only{
+        display:block!important;
+    }
+    .large-only{
         display: none;
     }
 }
