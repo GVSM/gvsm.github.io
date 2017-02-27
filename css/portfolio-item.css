@@ -35,7 +35,7 @@ html,
     float: left;
     transition: all 0.3s ease;
     color: white;
-    font-size: 36px;
+    font-size: 16px;
 }
 
 
@@ -74,6 +74,10 @@ html,
 
 .bottomBar{ 
     display: none;
+}
+
+.bottomBar a{ 
+   font-size: 28px;
 }
 
 .bb{
